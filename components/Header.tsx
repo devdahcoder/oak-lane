@@ -6,7 +6,7 @@ type Props = {}
 
 const Header = (props: Props) => {
     return (
-        <div>
+        <div className="absolute top-0 left-0 w-full z-50">
             <EventCodeContainer />
             <Navigation />
         </div>

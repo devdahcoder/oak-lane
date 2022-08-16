@@ -34,11 +34,8 @@ const EventCodeContainer = (props: Props) => {
     
     return (
         <div className={`flex flex-row items-center justify-center py-3 bg-dark-100 space-x-4 ${className}`}>
-            <div className="flex flex-row items-center capitalize text-base text-white">
-                <p>Hi there are you at an event ? </p>
 
-                <span className="animate-wave"><img className="flex flex-row -items-center justify-center h-8 w-8" src="./Images/waving-hand.png" alt="waving-hand" /></span>
-            </div>
+            <div className="flex flex-row items-center capitalize text-base text-white">Hi <span className="animate-wave"><img className="flex flex-row -items-center justify-center h-8 w-8" src="./Images/waving-hand.png" alt="waving-hand" /></span> there are you at an event ? </div>
             <Input
                 placeholder='Enter Event Pass Code'
                 className='w-96 py-3 px-8 text-sm placeholder:font-light placeholder:text-gray-100'

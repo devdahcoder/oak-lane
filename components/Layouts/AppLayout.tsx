@@ -11,7 +11,7 @@ const AppLayout = (props: Props) => {
     return (
         <div>
             <Header />
-            <div>
+            <div className="border mt-36">
                 {props?.children}
             </div>
         </div>
