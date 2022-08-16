@@ -36,7 +36,7 @@ export const navigation: HeaderNavigation[] = [
         href: "#",
         type: HeaderNavigationEnum.LINK,
         className: `
-            bg-white text-green-100 px-9 py-4 transition-all delay-100 ease-linear 
+            bg-white text-black px-9 py-4 transition-all delay-100 ease-linear 
             rounded-sm hover:bg-green-100 hover:text-white`,
     },
     {

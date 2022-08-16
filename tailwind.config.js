@@ -21,6 +21,8 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
+        cabin: ['Cabin', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif'],
       },
       animation: {
         'scale-out': 'scale-out 800ms ease',
