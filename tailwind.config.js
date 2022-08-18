@@ -17,6 +17,9 @@ module.exports = {
         },
         green: {
           100: 'hsl(90, 25%, 52%)',
+        },
+        red: {
+          100: 'hsl(0, 100%, 50%)',
         }
       },
       fontFamily: {

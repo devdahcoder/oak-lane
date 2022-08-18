@@ -3,13 +3,14 @@ import Button from '../Button';
 import ContainerSize from '../Layouts/ContainerSize';
 import { IoPlayOutline } from 'react-icons/io5';
 import Stripe from '../../public/Icons/Stripe';
+import Video from '../Video';
 
 
 type Props = {}
 
 const BookDemo = (props: Props) => {
     return (
-        <div className="flex flex-col items-center font-cabin pt-20">
+        <div className="flex flex-col items-center font-cabin pt-20 space-y-12">
             <ContainerSize className="flex flex-col items-center justify-center text-center w-[70%] space-y-6">
                 <div className="relative flex flex-col items-center justify-center text-6xl font-semibold leading-[5rem] tracking-wide">
                     <h1>Engage your <span className="relative"> <Stripe className="absolute bottom-1 left-0 -z-50" /> audience</span> and make everyone feel connected</h1>
@@ -29,8 +30,19 @@ const BookDemo = (props: Props) => {
                     />
                 </div>
             </ContainerSize>
-            <div>
-
+            <div className="relative flex flex-row items-center rounded-md w-full max-w-[63rem] h-[32rem]">
+                <div className="absolute left-6 top-8 flex flex-row items-center justify-center px-4 py-1 rounded-full text-white text-base font-medium bg-red-500 z-20">
+                    <span className="w-2 h-2 rounded-full bg-white mr-1.5 animate-pulse"></span>
+                    Live
+                </div>
+                <Video 
+                    className={`block w-full h-full rounded-md absolute left-0 top-0 object-cover z-10`}
+                    src={`./Videos/elephant.mp4`}
+                    type={`video/mp4`} 
+                    muted={true}
+                    loop={true}
+                    autoPlay={true}
+                />
             </div>
         </div>
     )
