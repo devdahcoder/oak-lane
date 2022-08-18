@@ -10,3 +10,9 @@ export type HeaderNavigation = {
     type: HeaderNavigationEnum;
     subNavigation?: HeaderNavigation[];
 }
+
+export type OakLaneUsers = {
+    id: number,
+    imageUrl: string,
+    name: string,
+}

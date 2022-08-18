@@ -4,7 +4,9 @@ import ContainerSize from '../Layouts/ContainerSize';
 import { IoPlayOutline } from 'react-icons/io5';
 import Stripe from '../../public/Icons/Stripe';
 import Video from '../Video';
-
+import { oakLaneUsers } from '../../context/oat-lane-users';
+import ImageList from '../ImageList';
+// oakLaneUsers
 
 type Props = {}
 
@@ -42,6 +44,14 @@ const BookDemo = (props: Props) => {
                     muted={true}
                     loop={true}
                     autoPlay={true}
+                />
+            </div>
+            <div className="pt-5">
+                <ImageList 
+                    className={`flex flex-col items-center space-y-3`} 
+                    headerText={"You can use OakLane with"} 
+                    images={oakLaneUsers} 
+                    isImagesHeader={true} 
                 />
             </div>
         </div>
