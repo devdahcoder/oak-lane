@@ -11,11 +11,13 @@ const OfferList = (props: Props) => {
                 return (
                     <OfferItem 
                         key={index} 
+                        index={index}
                         id={item?.id}
                         title={item?.title}
                         description={item?.description}
                         imageUrl={item?.imageUrl}
                         href={item?.href}
+                        activeClass={'text-black before:contents-[] before:absolute before:w-1.5 before:h-full before:top-0 before:left-0 before:bg-gray-200 before:rounded-full'}
                     />
                 )
             })}

@@ -34,6 +34,7 @@ module.exports = {
         'scale-out': 'scale-out 800ms ease',
         'scale-in': 'scale-in 3s linear',
         'wave': 'wave 3s linear infinite',
+        'slide': 'slide 1s linear infinite',
       },
       keyframes: {
         'scale-out': {
@@ -49,6 +50,11 @@ module.exports = {
           '50%': { transform: 'translateY(-10px) rotate(30deg)' },
           '100%': { transform: 'translateY(0) transform: rotate(0)'},
         },
+        'slide': {
+          '0%': { transform: 'translateX(0)'},
+          '50%': { transform: 'translateX(-8px)'},
+          '100%': { transform: 'translateX(0)'},
+        }
       },
     },
   },
