@@ -15,7 +15,7 @@ body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  font-family: Inter, Cabin, Raleway, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Cabin, Inter, Raleway, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
     &::-webkit-scrollbar {
@@ -28,7 +28,9 @@ body {
     }
 
     &::-webkit-scrollbar-thumb {
-      background-color: hsl(223, 13%, 89%);
+      background-color: hsl(225, 14%, 89%);
       border-radius: 20px;
+      // color: hsla(90, 25%, 52%, 0.35);
+      color: hsla(90, 25%, 52%, 0.35);
     }
 }

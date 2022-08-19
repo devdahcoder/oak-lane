@@ -16,3 +16,11 @@ export type OakLaneUsers = {
     imageUrl: string,
     name: string,
 }
+
+export type Offer = {
+    id: number,
+    title: string,
+    description: string,
+    imageUrl?: string,
+    href: string,
+}
