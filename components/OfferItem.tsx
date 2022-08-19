@@ -12,22 +12,17 @@ type Props = {
     href: string;
     className?: string;
     activeClass: string;
+    onClick: (id: number) => void;
+    isActive: boolean;
 }
 
 const OfferItem = (props: Props) => {
 
-    const [active, setActive] = useState<string>('');
-
     const router = useRouter();
 
-    const { id, title, description, imageUrl, href, className, index, activeClass } = props;
+    const { id, title, description, imageUrl, href, className, index, activeClass, onClick, isActive } = props;
 
     const refElement = useRef<HTMLDivElement>(null);
-
-    const handleActive = (id: number) => {
-        const idx = String(id);
-        setActive(idx);
-    }
 
     useEffect(() => {
         let isSubscribed = true;
@@ -41,17 +36,15 @@ const OfferItem = (props: Props) => {
             isSubscribed = false;
         }
     }, [])
-
-    const isActive = active === String(id);
     
     return (
         <div 
             ref={refElement} 
             tabIndex={id} 
-            onClick={() => handleActive(id)} 
+            onClick={() => onClick(id)} 
             role="button"
             className={`flex flex-col text-gray-200 space-y-4 py-3 px-10 relative
-            ${isActive ? activeClass : ''}`}>
+            ${isActive && activeClass}`}>
             <div className="font-semibold tracking-wider">
                 <p>{title}</p>
             </div>
