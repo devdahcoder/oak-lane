@@ -23,6 +23,9 @@ module.exports = {
         },
         red: {
           100: 'hsl(0, 100%, 50%)',
+        },
+        blue: {
+          100: 'hsl(210, 20%, 98%)',
         }
       },
       fontFamily: {

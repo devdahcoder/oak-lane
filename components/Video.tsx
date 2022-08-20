@@ -12,12 +12,14 @@ type Props = {
     disablePictureInPicture?: boolean
     height?: string
     width?: string
+    useRef?: React.RefObject<HTMLVideoElement>
 
 }
 
 const Video = (props: Props) => {
     return (
         <video 
+            ref={props.useRef}
             className={`block ${props?.className}`} 
             style={props?.style}
             autoPlay={props?.autoPlay} muted={props?.muted} loop={props?.muted}

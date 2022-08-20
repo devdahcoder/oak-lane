@@ -17,18 +17,19 @@ const OfferList = (props: Props) => {
             {offer.map((item, index) => {
 
                 const {description, href, id, title, imageUrl} = item;
+                
                 const isActive = active === id;
 
                 return (
                     <OfferItem 
                         key={index} 
                         index={index}
-                        id={item?.id}
-                        title={item?.title}
-                        description={item?.description}
-                        imageUrl={item?.imageUrl}
-                        href={item?.href}
-                        activeClass={'text-black before:contents-[] before:absolute before:w-1.5 before:h-full before:top-0 before:left-0 before:bg-gray-200 before:rounded-full'}
+                        id={id}
+                        title={title}
+                        description={description}
+                        imageUrl={imageUrl}
+                        href={href}
+                        activeClass={'text-black delay-150 ease-linear transition-all duration-300 before:contents-[] before:absolute before:w-1.5 before:h-full before:top-0 before:left-0 before:bg-gray-200 before:rounded-full '}
                         onClick={handleActive}
                         isActive={isActive}
                     />

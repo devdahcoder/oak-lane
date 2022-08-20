@@ -13,12 +13,12 @@ type Props = {}
 const BookDemo = (props: Props) => {
     return (
         <div className="flex flex-col items-center font-cabin pt-20 pb-10 space-y-12">
-            <ContainerSize className="flex flex-col items-center justify-center text-center w-[70%] space-y-6">
+            <ContainerSize className="flex flex-col items-center justify-center text-center w-[80%] space-y-6">
                 <div className="relative flex flex-col items-center justify-center text-6xl font-semibold leading-[5rem] tracking-wide">
                     <h1>Engage your <span className="relative"> <Stripe className="absolute bottom-1 left-0 -z-50" /> audience</span> and make everyone feel connected</h1>
                     
                 </div>
-                <div className="flex flex-col items-center justify-center text-xl px-14 font-raleway">
+                <div className="flex flex-col items-center justify-center text-xl px-24 font-raleway">
                     <p>whether you’re running a team call, training or an all-company meeting, OakLane gives you everything you need to engage your participants.</p>
                 </div>
 

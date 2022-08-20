@@ -16,7 +16,7 @@ const Offer = (props: Props) => {
                     <div className="text-4xl font-semibold leading-[3rem] tracking-wide">
                         <h2>It’s how you include everyone in your meetings</h2>
                     </div>
-                    <div className="pr-48 text-xl font-normal">
+                    <div className="pr-40 text-xl font-normal">
                         <p>OakLane gives you everything you need to engage your participants.</p>
                     </div>
                 </ContainerSize>

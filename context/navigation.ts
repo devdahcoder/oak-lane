@@ -45,7 +45,7 @@ export const navigation: HeaderNavigation[] = [
         href: "#",
         type: HeaderNavigationEnum.LINK,
         className: `
-            bg-green-100 text-white px-10 py-4 transition-all delay-100 ease-linear 
+            bg-green-100 text-white px-9 py-4 transition-all delay-100 ease-linear 
             rounded-sm hover:bg-white hover:text-green-100`,
     }
 ]

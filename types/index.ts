@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 import { HeaderNavigationEnum } from "./enums";
 
 export type HeaderNavigation = {
@@ -23,4 +24,12 @@ export type Offer = {
     description: string,
     imageUrl?: string,
     href: string,
+}
+
+export type Integration = {
+    id: number;
+    title: string;
+    description: string;
+    className?: string;
+    icon: React.ReactNode;
 }
