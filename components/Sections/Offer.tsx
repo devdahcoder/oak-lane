@@ -31,7 +31,7 @@ const Offer = (props: Props) => {
                     <div className="grow relative flex flex-row items-center justify-center">
                         <RotateElement className="z-0 rotate-12" />
 
-                        <RotateElement className="z-30 -rotate-6" />
+                        <RotateElement className="z-30 -rotate-6 animate-rotate-forward-backward" />
                     </div>
                 </div>
             </div>

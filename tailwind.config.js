@@ -38,6 +38,8 @@ module.exports = {
         'scale-in': 'scale-in 3s linear',
         'wave': 'wave 3s linear infinite',
         'slide': 'slide 1s linear infinite',
+        'rotate-forward-backward' : 'rotate-forward-backward 5s linear infinite',
+        
       },
       keyframes: {
         'scale-out': {
@@ -57,6 +59,11 @@ module.exports = {
           '0%': { transform: 'translateX(0)'},
           '50%': { transform: 'translateX(-8px)'},
           '100%': { transform: 'translateX(0)'},
+        },
+        'rotate-forward-backward' : {
+          '0%': { transform: 'rotate(0deg)'},
+          '50%': { transform: 'rotate(50deg)'},
+          '100%': { transform: 'rotate(0deg)'},
         }
       },
     },
