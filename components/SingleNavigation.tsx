@@ -23,7 +23,7 @@ const SingleNavigation = (props: Props) => {
         <div className="flex flex-row items-center" draggable="false" >
             <Link href={href}>
                 <a 
-                    className={`relative flex flex-row items-center justify-center w-full h-full py-2 px-4
+                    className={`relative flex flex-row items-center justify-center w-full h-full py-2 px-5 
                         text-base ${className}`} 
                     style={style}
                 >

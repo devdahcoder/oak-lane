@@ -33,3 +33,13 @@ export type Integration = {
     className?: string;
     icon: React.ReactNode;
 }
+
+export type Blog = {
+    id: number;
+    imageLink: string;
+    alt: string;
+    title: string;
+    className: string;
+    style: React.CSSProperties;
+
+}

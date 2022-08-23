@@ -39,7 +39,7 @@ export const navigation: HeaderNavigation[] = [
         type: HeaderNavigationEnum.LINK,
         className: `
             bg-white text-black px-9 py-3.5 border border-green-100 transition-all delay-100 ease-linear 
-            rounded-sm hover:bg-green-100 hover:text-white`,
+            rounded-md hover:bg-green-100 hover:text-white`,
     },
     {
         id: 6,
@@ -48,6 +48,6 @@ export const navigation: HeaderNavigation[] = [
         type: HeaderNavigationEnum.LINK,
         className: `
             bg-green-100 text-white px-9 py-3.5 border border-green-100 transition-all delay-100 ease-linear 
-            rounded-sm hover:bg-white hover:text-green-100`,
+            rounded-md hover:bg-white hover:text-green-100`,
     }
 ]

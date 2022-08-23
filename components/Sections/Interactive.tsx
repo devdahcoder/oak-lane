@@ -5,7 +5,7 @@ type Props = {}
 
 const Interactive = (props: Props) => {
     return (
-        <div className="rounded-lg bg-green-100 flex flex-row justify-between px-24 pt-12 pb-20 tracking-wide my-20">
+        <div className="rounded-lg bg-green-100 flex flex-row justify-between px-20 pt-14 pb-24 tracking-wide my-20">
             <div className="text-4xl text-white w-[28rem]">
                 <p>Make your meetings more interactive with OakLane.</p>
             </div>

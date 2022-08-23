@@ -7,6 +7,8 @@ import Integration from '../components/Sections/Integration';
 import Review from '../components/Sections/Review';
 import Company from '../components/Sections/Company';
 import Interactive from '../components/Sections/Interactive';
+import Blog from '../components/Sections/Blog';
+import Footer from '../components/Sections/Footer';
 
 const HomePage = () => {
   return (
@@ -18,6 +20,8 @@ const HomePage = () => {
       <Review />
       <Company />
       <Interactive />
+      <Blog />
+      <Footer />
     </div>
   )
 }

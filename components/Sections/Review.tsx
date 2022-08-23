@@ -2,6 +2,8 @@
 import React from 'react';
 import { CgArrowLongRight, CgArrowLongLeft } from 'react-icons/cg';
 import IconBtn from '../IconBtn';
+import Image from '../Image';
+
 
 
 type Props = {}
@@ -30,9 +32,7 @@ const Review = (props: Props) => {
                     </div>
                 </div>
                 <div className={`block relative w-full grow-1`}>
-                    <div className={`block relative pb-[100%] overflow-hidden rounded-lg max-h-fit border`}>
-                        <img className={`w-full h-full object-cover absolute left-0 top-0`} src="/Images/carvalho.jpg" alt="Photo by Wesley Carvalho from Pexels" />
-                    </div>
+                    <Image imageLink="/Images/carvalho.jpg" alt="Photo by Wesley Carvalho from Pexels" className="rounded-lg" />
                 </div>
             </div>
         </div>
