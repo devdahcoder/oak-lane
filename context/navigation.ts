@@ -1,5 +1,7 @@
+import { navigationStyle } from "../styles/globalStyle";
 import { HeaderNavigation } from "../types";
 import { HeaderNavigationEnum } from "../types/enums";
+
 
 export const navigation: HeaderNavigation[] = [
     {
@@ -7,28 +9,28 @@ export const navigation: HeaderNavigation[] = [
         title: "Features",
         href: "#",
         type: HeaderNavigationEnum.LINK,
-        className: "",
+        className: `${navigationStyle}`,
     },
     {
         id: 2,
         title: "Resources",
         href: "#",
         type: HeaderNavigationEnum.LINK,
-        className: "",
+        className: `${navigationStyle}`,
     },
     {
         id: 3,
         title: "Pricing",
         href: "#",
         type: HeaderNavigationEnum.LINK,
-        className: "",
+        className: `${navigationStyle}`,
     },
     {
         id: 4,
         title: "Enterprise",
         href: "#",
         type: HeaderNavigationEnum.LINK,
-        className: "",
+        className: `${navigationStyle}`,
     },
     {
         id: 5,
@@ -36,7 +38,7 @@ export const navigation: HeaderNavigation[] = [
         href: "#",
         type: HeaderNavigationEnum.LINK,
         className: `
-            bg-white text-black px-9 py-4 transition-all delay-100 ease-linear 
+            bg-white text-black px-9 py-3.5 border border-green-100 transition-all delay-100 ease-linear 
             rounded-sm hover:bg-green-100 hover:text-white`,
     },
     {
@@ -45,7 +47,7 @@ export const navigation: HeaderNavigation[] = [
         href: "#",
         type: HeaderNavigationEnum.LINK,
         className: `
-            bg-green-100 text-white px-9 py-4 transition-all delay-100 ease-linear 
+            bg-green-100 text-white px-9 py-3.5 border border-green-100 transition-all delay-100 ease-linear 
             rounded-sm hover:bg-white hover:text-green-100`,
     }
 ]

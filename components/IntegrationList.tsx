@@ -22,34 +22,36 @@ const IntegrationList = (props: Props) => {
         setActiveIcon(id);
     }
 
+    const activeIconTab = activeIcon === activeTab;
+
     const integrations: Integration[] = [
         {
             id: 1,
             title: "Intuitive & Easy to use",
             description: "The attendees can join without any logins or downloads, and the setup for hosts takes only minutes.",
             className: "",
-            icon: <Grid fillColor='text-white' />,
+            icon: <Grid className={`${activeTab === 1 ? 'fill-white' :  'fill-green-100'}`} fillColor={`${activeTab === 1 ? 'text-white' :  'text-green-100'}`}   />,
         },
         {
             id: 2,
             title: "Perfect for Hybrid events",
             description: "Take OakLane Live wherever your event is by adding our Audience Web App to your event website with a template code.",
             className: "",
-            icon: <Announcement />,
+            icon: <Announcement className={`${activeTab === 2 ? 'fill-white' :  'fill-green-100'}`} fillColor={`${activeTab === 1 ? 'text-white' :  'text-green-100'}`} />,
         },
         {
             id: 3,
             title: "Seamless integration",
             description: "Using our built-in integrations with a whole suite of live streaming, you can easily add the Audience Web App and seamless attendee tracking without additional development work.",
             className: "",
-            icon: <Plug />,
+            icon: <Plug className={`${activeTab === 3 ? 'fill-white' :  'fill-green-100'}`} fillColor={`${activeTab === 1 ? 'text-white' :  'text-green-100'}`} />,
         },
         {
             id: 4,
             title: "Get started for free",
             description: "Start with our forever-free Basic plan, or get more from OakLane for only US$10 per month.",
             className: "",
-            icon: <Dollar />,
+            icon: <Dollar className={`${activeTab === 4 ? 'fill-white' :  'fill-green-100'}`} fillColor={`${activeTab === 1 ? 'text-white' :  'text-green-100'}`} />,
         }
     ]
 
