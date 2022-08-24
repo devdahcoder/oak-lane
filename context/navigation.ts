@@ -1,4 +1,4 @@
-import { navigationStyle } from "../styles/globalStyle";
+import { navigationStyle, footerNavigationStyle } from "../styles/globalStyle";
 import { HeaderNavigation } from "../types";
 import { HeaderNavigationEnum } from "../types/enums";
 
@@ -51,3 +51,55 @@ export const navigation: HeaderNavigation[] = [
             rounded-md hover:bg-white hover:text-green-100`,
     }
 ]
+
+
+export const footerNavigation = [
+        {
+            id: 1,
+            title: "Products",
+            className: "",
+            style: {},
+            navigation: [
+                {id: 1, title: "Product Tour", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {},  },
+                {id: 2, title: "Q&A", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+                {id: 3, title: "Live Polls", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+                {id: 4, title: "Analytics", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+                {id: 5, title: "integrations", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+            ]
+        },
+        {
+            id: 2,
+            title: "Resources",
+            className: "",
+            style: {},
+            navigation: [
+                {id: 1, title: "Blog", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+                {id: 2, title: "Use Cases", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+                {id: 3, title: "Videos", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+                {id: 4, title: "Help Center", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+            ]
+        },
+        {
+            id: 3,
+            title: "Pricing",
+            className: "",
+            style: {},
+            navigation: [
+                {id: 1, title: "One-Time Plane", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+                {id: 2, title: "Annual", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+                {id: 3, title: "Enterprise", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+            ]
+        },
+        {
+            id: 4,
+            title: "Company",
+            className: "",
+            style: {},
+            navigation: [
+                {id: 1, title: "About Us", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+                {id: 2, title: "Partner", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+                {id: 3, title: "Our Clients", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+                {id: 4, title: "Legal", href: "#", type: HeaderNavigationEnum.LINK, className: `${footerNavigationStyle}`, style: {}, },
+            ]
+        },
+    ]

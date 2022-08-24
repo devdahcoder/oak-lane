@@ -43,3 +43,11 @@ export type Blog = {
     style: React.CSSProperties;
 
 }
+
+export type FooterNavigationContainer = {
+    id: number;
+    title: string;
+    className: string;
+    style: React.CSSProperties;
+    navigation: HeaderNavigation[];
+}

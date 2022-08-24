@@ -4,8 +4,8 @@ import { HeaderNavigationEnum } from '../types/enums';
 import { HeaderNavigation } from '../types';
 
 type Props = {
-    id: number;
-    index: number;
+    id?: number;
+    index?: number;
     title: string;
     href: string;
     icon?: string;
