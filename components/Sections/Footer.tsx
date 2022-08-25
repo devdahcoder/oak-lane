@@ -1,8 +1,9 @@
 import React from 'react';
 import ContainerSize from '../Layouts/ContainerSize';
-import { BsFacebook, BsLinkedin, BsInstagram } from 'react-icons/bs';
+import { BsFacebook, BsLinkedin, BsInstagram, BsTwitter } from 'react-icons/bs';
 import IconBtn from '../IconBtn';
 import { FiTwitter } from 'react-icons/fi';
+import { AiFillInstagram } from 'react-icons/ai';
 import CopyRight from '../../public/Icons/CopyRight';
 import Logo from '../Logo';
 import { footerNavigation } from '../../context/navigation';
@@ -24,7 +25,7 @@ const Footer = (props: Props) => {
                         <Logo iconClassName={`w-24 h-24`} titleClassName={`text-2xl font-medium !text-white`} />
                     </div>
 
-                    <div className="flex flex-row space-x-10">
+                    <div className="flex flex-row space-x-14">
                         {
                             footerNavigation?.map(({id, className, title, style, navigation}, index) => {
                                 return (
@@ -57,7 +58,7 @@ const Footer = (props: Props) => {
                     <div className="flex flex-row items-center space-x-8">
                         <IconBtn className={"p-2"} icon={<BsInstagram className="text-white" />} />
                         <IconBtn className={"p-2"} icon={<BsLinkedin className="text-white" />} />
-                        <IconBtn className={"p-2"} icon={<FiTwitter className="text-white" />} />
+                        <IconBtn className={"p-2"} icon={<BsTwitter className="text-white" />} />
                         <IconBtn className={"p-2"} icon={<BsFacebook className="text-white" />} />
                     </div>
                 </div>

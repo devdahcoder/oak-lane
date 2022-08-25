@@ -51,3 +51,11 @@ export type FooterNavigationContainer = {
     style: React.CSSProperties;
     navigation: HeaderNavigation[];
 }
+
+export type Review = {
+    id: number;
+    name: string;
+    company: string;
+    review: string;
+    imageUrl: string;
+}

@@ -8,7 +8,7 @@ type Props = {
 
 const ContainerSize = (props: Props) => {
     return (
-        <div style={props?.style} className={`${props?.className}`}>
+        <div style={props?.style} className={`flex flex-col w-[90%] my-0 mx-auto ${props?.className}`}>
             {props?.children}
         </div>
     )

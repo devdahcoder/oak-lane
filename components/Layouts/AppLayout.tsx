@@ -14,9 +14,9 @@ const AppLayout = (props: Props) => {
         <div>
             <Header />
             <div className="mt-36">
-                <ContainerSize className="flex flex-col w-[90%] my-0 mx-auto">
+                {/* <ContainerSize className="flex flex-col w-[90%] my-0 mx-auto"> */}
                     {props?.children}
-                </ContainerSize>
+                {/* </ContainerSize> */}
             </div>
         </div>
     )

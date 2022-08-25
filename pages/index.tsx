@@ -9,18 +9,25 @@ import Company from '../components/Sections/Company';
 import Interactive from '../components/Sections/Interactive';
 import Blog from '../components/Sections/Blog';
 import Footer from '../components/Sections/Footer';
+import ContainerSize from '../components/Layouts/ContainerSize';
+
 
 const HomePage = () => {
   return (
     <div>
-      <BookDemo />
-      <Offer />
-      <Participant />
-      <Integration />
-      <Review />
+      <ContainerSize className="">
+        <BookDemo />
+        <Offer />
+        <Participant />
+        <Integration />
+        <Review />
+      </ContainerSize>
       <Company />
-      <Interactive />
-      <Blog />
+      <ContainerSize>
+        <Interactive />
+        <Blog />
+      </ContainerSize>
+      
       <Footer />
     </div>
   )

@@ -12,7 +12,7 @@ const Offer = (props: Props) => {
     return (
         <div className="py-14">
             <div className="flex flex-col space-y-14">
-                <ContainerSize className="w-[40rem] flex flex-col space-y-5">
+                <ContainerSize className="w-[40rem] mx-0 flex flex-col space-y-5">
                     <div className="text-4xl font-semibold leading-[3rem] tracking-wide">
                         <h2>It’s how you include everyone in your meetings</h2>
                     </div>

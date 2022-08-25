@@ -6,7 +6,7 @@ type Props = {}
 
 const Blog = (props: Props) => {
     return (
-        <div className="space-y-14">
+        <div className="space-y-14 pt-2 pb-44">
             <div className="text-center flex flex-col space-y-4 items-center px-80">
                 <div className="text-5xl font-semibold tracking-wide">
                     <p>Get inspired from our Blog</p>
