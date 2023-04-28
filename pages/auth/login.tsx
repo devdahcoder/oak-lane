@@ -72,7 +72,7 @@ const Login = (props: Props) => {
                 </div>
                 <div className="flex flex-col items-center justify-center text-center space-y-5">
                     <div>
-                        <Link href={`/auth/sign-up`}>
+                        <Link href={`/auth/signup`}>
                             <a className="text-blue-300 " href="" >Create an account</a>
                         </Link>
                     </div>

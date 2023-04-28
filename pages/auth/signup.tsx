@@ -7,7 +7,6 @@ import Button from '../../components/Button';
 import { VscEyeClosed, VscEye } from 'react-icons/vsc';
 import Link from 'next/link';
 
-
 type Props = {}
 
 const SignUp = (props: Props) => {

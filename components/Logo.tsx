@@ -19,7 +19,7 @@ const Logo = (props: Props) => {
         <div style={style} className={`flex flex-row items-center justify-center ${className}`}>
             {icon ?? <MainLogo className={iconClassName} />}
 
-            <span style={titleStyle} className={`text-large font-medium text-dark-100 ml-2 ${titleClassName}`}>{titleText}</span>
+            <span style={titleStyle} className={`text-xl font-medium text-dark-100 ml-2 ${titleClassName}`}>{titleText}</span>
         </div>
     )
 }

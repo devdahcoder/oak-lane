@@ -9,7 +9,7 @@ type Props = {}
 
 const Navigation = (props: Props) => {
     return (
-        <div className="bg-white border">
+        <div className="bg-white">
             <div className={`flex flex-row items-center justify-between py-3 w-[90%] my-0 mx-auto`}>
                 <Logo title={`Oak Lane`} />
 

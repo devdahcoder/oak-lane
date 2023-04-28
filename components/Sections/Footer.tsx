@@ -22,7 +22,7 @@ const Footer = (props: Props) => {
             <ContainerSize>
                 <div className="flex flex-row text-white space-x-52 pt-20 pb-8">
                     <div>
-                        <Logo iconClassName={`w-24 h-24`} titleClassName={`text-2xl font-medium !text-white`} />
+                        <Logo iconClassName={`w-24 h-24`} titleClassName={`text-3xl font-normal mt-auto mb-3 !text-white`} />
                     </div>
 
                     <div className="flex flex-row space-x-14">

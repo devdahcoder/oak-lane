@@ -22,7 +22,7 @@ const Button = (props: Props) => {
 
     return (
         <div>
-            <button onClick={props?.onClick} style={props?.style} className={`outline-none border-0 flex items-center ${props?.className}`}>
+            <button onClick={props?.onClick} style={props?.style} className={`flex items-center ${props?.className}`}>
                 {props?.isLeftIcon && <Icon icon={props?.icon} iconContainerClassName={props?.iconContainerClassName} iconContainerStyle={props?.iconContainerStyle} />}
                 {props?.text}
                 {props?.isRightIcon && <Icon icon={props?.icon} iconContainerClassName={props?.iconContainerClassName} iconContainerStyle={props?.iconContainerStyle} />}

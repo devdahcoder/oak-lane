@@ -9,33 +9,33 @@ export const navigation: HeaderNavigation[] = [
         title: "Features",
         href: "#",
         type: HeaderNavigationEnum.LINK,
-        className: `${navigationStyle}`,
+        className: `px-5 py-2  ${navigationStyle}`,
     },
     {
         id: 2,
         title: "Resources",
         href: "#",
         type: HeaderNavigationEnum.LINK,
-        className: `${navigationStyle}`,
+        className: `px-5 py-2  ${navigationStyle}`,
     },
     {
         id: 3,
         title: "Pricing",
         href: "#",
         type: HeaderNavigationEnum.LINK,
-        className: `${navigationStyle}`,
+        className: `px-5 py-2  ${navigationStyle}`,
     },
     {
         id: 4,
         title: "Enterprise",
         href: "#",
         type: HeaderNavigationEnum.LINK,
-        className: `${navigationStyle}`,
+        className: `px-5 py-2  ${navigationStyle}`,
     },
     {
         id: 5,
         title: "Login",
-        href: "#",
+        href: "/auth/login",
         type: HeaderNavigationEnum.LINK,
         className: `
             bg-white text-black px-9 py-3.5 border border-green-100 transition-all delay-100 ease-linear 
@@ -44,7 +44,7 @@ export const navigation: HeaderNavigation[] = [
     {
         id: 6,
         title: "Sign Up",
-        href: "#",
+        href: "/auth/signup",
         type: HeaderNavigationEnum.LINK,
         className: `
             bg-green-100 text-white px-9 py-3.5 border border-green-100 transition-all delay-100 ease-linear 

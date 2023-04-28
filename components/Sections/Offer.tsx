@@ -9,6 +9,7 @@ const Offer = (props: Props) => {
     const RotateElement = (props: {className?: string}) => (
         <div className={`bg-green-200 h-[32rem] w-[34rem] rounded-md absolute ${props?.className}`}></div>
     )
+
     return (
         <div className="py-14">
             <div className="flex flex-col space-y-14">
